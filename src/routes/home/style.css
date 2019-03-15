@@ -2,6 +2,7 @@
 	padding: 100px 50px 0 150px;
 	min-height: 100%;
 	width: 100%;	
+	box-sizing: border-box;
 }
 body {
 	font-size: 14px;
@@ -58,9 +59,15 @@ body {
 	margin-right: -50%;
 	transform: translate(-50%, -50%) 
 }
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
 @media (min-width:320px) and (max-width:767px) {
 	.home {
 		padding: 2%;
+		margin: 4em auto 0;
 	}
 	body {
 		font-size: 12px;
@@ -76,14 +83,25 @@ body {
 		display: block;
 		min-height: 50px;
 	}
+	.disclaimer {
+		padding: 2% 2% 0;
+    width: 83%;
+    margin: 0 auto;
+	}
 }
 @media (min-width:768px) and (max-width:992px) {
 	.home {
 		padding: 2%;
+		margin: 4em auto 0;
 	}
 	.home h2 {
 		padding: 2% 3% 0;
     margin: 1.5rem auto 0;
+	}
+	.disclaimer {
+		padding: 2% 2% 0;
+    width: 100%;
+    margin: 0 auto;
 	}
 	.card {
 		width: 41%;

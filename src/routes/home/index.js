@@ -40,7 +40,7 @@ export default class Home extends Component {
       <div class={style.home}>
         <div style={{ fontSize: '18px' }}>
           <Link activeClassName={style.active} href="/help">
-            Install this Web App as a Desktop App in Mac Os, Linux and Windows
+            <p class={style.disclaimer}>Install this Web App as a Desktop App in Mac Os, Linux and Windows</p>
           </Link>
         </div>
         <h2>Trending Repositories</h2>
