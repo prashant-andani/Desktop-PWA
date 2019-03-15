@@ -1,0 +1,51 @@
+.home {
+	padding: 100px 50px 0 150px;
+	min-height: 100%;
+	width: 100%;	
+}
+body {
+	font-size: 14px;
+}
+.card {
+	background: #fff;
+	border-radius: 2px;
+	display: inline-grid;
+	min-height: 150px;
+	margin: 1rem;
+	position: relative;
+	width: 300px;
+	padding: 20px 20px;
+
+}
+.card:hover {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	cursor: pointer;
+}
+.name {
+	font-size: 18px;
+	font-weight: bold;
+}
+.author {
+	font-size: 18px;
+	color: #555454;
+
+}
+.description {
+	margin-top: 10px;
+	font-size: 14px;
+}
+.language {
+	border-radius: 50%;
+	display: inline-block;
+	height: 14px;
+	position: relative;
+	top: 1px;
+	width: 14px;
+}
+.langname {
+	font-size: 12px;
+	padding-left: 5px;
+}
+.bottom {
+	bottom: 13px;
+}
