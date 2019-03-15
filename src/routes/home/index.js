@@ -80,6 +80,9 @@ export default class Home extends Component {
             </div>
           </div>
         ))}
+        {this.state.trendingRepos.length < 1 && (
+          <div class={style.loader}>Fetching repositories...</div>
+        )}
       </div>
     );
   }
