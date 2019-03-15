@@ -9,7 +9,7 @@ const Header = () => (
       <Link activeClassName={style.active} href="/">
         Home
       </Link>
-      <Link activeClassName={style.active} href="/profile">
+      <Link activeClassName={style.active} href="/help">
         Help
       </Link>
     </nav>
